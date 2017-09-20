@@ -1,4 +1,4 @@
-# Stencil Starter App
+# Stencil Loading Spinner Component
 
 Stencil is a compiler for building fast web apps using Web Components.
 
@@ -8,17 +8,9 @@ Stencil components are just Web Components, so they work in any major framework 
 
 Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
 
-## Getting Started
+## Get started
 
-To start a new project using Stencil, clone this repo to a new directory:
-
-```bash
-git clone git@github.com:ionic-team/stencil-starter.git my-app
-cd my-app
-git remote rm origin
-```
-
-and run:
+Clone this repo and cd into the folder, then run the following commands
 
 ```bash
 npm install
@@ -39,3 +31,12 @@ To build the app for production, run:
 npm run build
 ```
 
+## Usage
+
+```html
+<loading-spinner type="android" color="green"></loading-spinner>
+<loading-spinner type="circle" color="#333333"></loading-spinner>
+<loading-spinner type="bars" color="orange"></loading-spinner>
+<loading-spinner type="bars" color="blue"></loading-spinner>
+<loading-spinner type="ios" color="red"></loading-spinner>
+```
