@@ -33,6 +33,10 @@ npm run build
 
 ## Usage
 
+Preview
+
+![Preview](http://www.giphy.com/gifs/26vIg1eDTCsCWYFGM)
+
 ```html
 <loading-spinner type="android" color="green"></loading-spinner>
 <loading-spinner type="circle" color="#333333"></loading-spinner>
