@@ -35,7 +35,7 @@ npm run build
 
 Preview
 
-![Preview](http://www.giphy.com/gifs/26vIg1eDTCsCWYFGM)
+![Preview](https://media.giphy.com/media/26vIg1eDTCsCWYFGM/giphy.gif)
 
 ```html
 <loading-spinner type="android" color="green"></loading-spinner>
