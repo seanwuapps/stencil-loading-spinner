@@ -1,9 +1,11 @@
+const sass = require('@stencil/sass');
+
 exports.config = {
   bundles: [
     { components: ['loading-spinner'] }
   ],
-  collections: [
-    { name: '@stencil/router' }
+  plugins: [
+    sass()
   ]
 };
 
